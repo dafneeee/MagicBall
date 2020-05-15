@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoappnegro"
+    android:backgroundTint="?android:attr/panelBackground"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="#4A0A4A"
+        android:backgroundTint="#4A0A4A"
+        android:text="Crystal ball"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFF"
+        android:textSize="50sp"
+        android:textStyle="italic|bold" />
+
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#4A0A4A"
+        android:text="¿Estás seguro que quieres seguir?..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#FFF"
+
+        android:textSize="24sp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/cristal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:background="#2F0337"
+        app:srcCompat="@drawable/cristalnegro"
+        tools:srcCompat="@drawable/cristalnegro" />
+
+</LinearLayout>
